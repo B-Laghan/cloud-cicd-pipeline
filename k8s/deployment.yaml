@@ -21,8 +21,8 @@ spec:
     spec:
       containers:
         - name: cloud-cicd-app
-          image: cloud-cicd-app:v1
-          imagePullPolicy: IfNotPresent
+          image: laghan05/cloud-cicd-app:latest
+          imagePullPolicy: Always
 
           ports:
             - containerPort: 8080
