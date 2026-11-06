@@ -15,9 +15,8 @@ class HelloControllerTest {
         String response = helloController.home();
 
         assertEquals(
-                "Cloud CI/CD Pipeline Application - Version 1",
-                response
-        );
+                "Cloud CI/CD Pipeline Application - Version 1.1",
+                response);
     }
 
     @Test
@@ -26,7 +25,6 @@ class HelloControllerTest {
 
         assertEquals(
                 "Application is running successfully",
-                response
-        );
+                response);
     }
 }
