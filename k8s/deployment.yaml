@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: cloud-cicd-app
-          image: laghancicdregistry.azurecr.io/cloud-cicd-app:v1
+          image: laghancicdregistry.azurecr.io/cloud-cicd-app:wrong-tag
           imagePullPolicy: Always
 
           ports:
